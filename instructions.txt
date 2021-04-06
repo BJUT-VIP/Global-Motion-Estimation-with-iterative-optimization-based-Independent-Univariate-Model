@@ -1,0 +1,44 @@
+gme_static_analyze.py
+
+A global motion estimation algorithm based on statistical analysis
+
+
+
+gme_iterative_optimization.py
+
+A global motion estimation algorithm based on iterative optimization
+
+
+
+gme_dnn.py
+
+Global motion estimation algorithm based on neural network
+
+
+
+gme_dnn_loss.py
+
+Draw the loss curve of model
+
+
+
+gme_dnn_test.py
+
+Neural network model testing
+
+
+
+gme_dnn_test_plot.py
+
+ACC curve drawing of neural network model
+
+
+
+model/*.pkl
+
+Parameter model file trained by neural network.
+
+NETA /B refers to the different neural network structures
+
+ModelA /B refers to training under the supervision of data generated without the global motion model
+
